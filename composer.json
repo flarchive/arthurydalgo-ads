@@ -1,0 +1,44 @@
+{
+    "name": "arthurydalgo/ads",
+    "description": "Bombarding your users with ads.",
+    "keywords": [
+        "flarum", "arthurydalgo",
+        "ads", "advertising"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniël Klabbers",
+            "email": "daniel+flarum@klabbers.email",
+            "homepage": "http://hyn.me"
+        },
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "homepage": "https://clarkwinkelmann.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/arthurydalgo/ads/issues",
+        "source": "https://github.com/arthurydalgo/ads"
+    },
+    "require": {
+        "flarum/core": "^1."
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "ArthurYdalgo Ads",
+            "icon": {
+                "name": "fas fa-audio-description",
+                "backgroundColor": "#f4f4f4",
+                "color": "#5f4bb6"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "arthurydalgo\\Ads\\": "src/"
+        }
+    }
+}
